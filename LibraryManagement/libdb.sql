@@ -565,7 +565,7 @@ CREATE TABLE users (
 
 
 DELIMITER //
-CREATE PROCEDURE sp_checkUserCredentials(book
+CREATE PROCEDURE sp_checkUserCredentials(
     IN p_username VARCHAR(50),
     IN p_password VARCHAR(255)
 )
